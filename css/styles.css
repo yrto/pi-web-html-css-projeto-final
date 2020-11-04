@@ -1,0 +1,363 @@
+/* ************************************** header */
+
+#header {
+  margin: 0 auto;
+  padding: 0 1.75rem 1.75rem;
+  max-width: 912px;
+}
+
+#header .navbar {
+  font-size: 1.25rem;
+  padding: 1.75rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .navbar a {
+  color: hsl(216, 16%, 66%);
+  text-decoration: none;
+}
+
+#header .navbar a:hover {
+  color: #f4f4f2;
+}
+
+#header .navbar .nav-brand {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#header .navbar .nav-list {
+  list-style: none;
+  display: flex;
+}
+
+#header .navbar .nav-list .nav-link {
+  margin-right: 2rem;
+}
+
+#header .navbar .nav-list .nav-link:last-child {
+  margin-right: 0;
+}
+
+#header .navbar .nav-toggle {
+  display: none;
+}
+
+#header .profile {
+  align-items: center;
+  display: flex;
+}
+
+#header .profile .profile-content {
+  width: 50%;
+  margin-top: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+#header .profile .profile-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+#header .profile .profile-content p {
+  margin-top: 1.75rem;
+}
+
+#header .profile .profile-content .button {
+  background-color: hsl(200, 63%, 45%);
+  border: none;
+  border-radius: 0.25rem;
+  color: #f4f4f2;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: 150ms;
+}
+
+#header .profile .profile-content .button:hover {
+  top: -3px;
+  background-color: hsl(200, 63%, 50%);
+}
+
+#header .profile .profile-content .button:active {
+  top: 0;
+  background-color: hsl(200, 63%, 45%);
+}
+
+#header .profile .profile-image {
+  width: 50%;
+}
+
+#header .profile .profile-image img {
+  margin: 1.75rem auto 0;
+  border-radius: 100%;
+  display: block;
+  max-width: 240px;
+}
+
+/* ************************************** main content */
+
+#main-content .highlight {
+  background-color: hsl(216, 16%, 42%);
+}
+
+#main-content .icon-left {
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* ************************************** section intro */
+
+.section-intro {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.section-intro h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.section-intro a:hover {
+  color: #f4f4f2;
+}
+
+/* ************************************** recent posts */
+
+.recent-posts {
+  margin: 1.75rem auto 0;
+  padding: 1.75rem;
+  max-width: 912px;
+}
+
+.recent-posts .recent-posts-cards {
+  display: flex;
+}
+
+.recent-posts .recent-posts-cards .card {
+  background-color: #f4f4f2;
+  border-radius: 0.25rem;
+  color: #495464;
+  padding: 1.25rem;
+  margin-right: 1.75rem;
+  position: relative;
+  transition: 150ms;
+  top: 0;
+}
+
+.recent-posts .recent-posts-cards .card:hover {
+  background-color: white;
+  top: -3px;
+}
+
+.recent-posts .recent-posts-cards .card:active {
+  top: 0;
+}
+
+.recent-posts .recent-posts-cards .card:last-child {
+  margin-right: 0;
+}
+
+.recent-posts .recent-posts-cards .card h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.recent-posts .recent-posts-cards .card p {
+  margin-top: 1rem;
+}
+
+.recent-posts .recent-posts-cards .card .data {
+  color: hsl(216, 16%, 66%);
+}
+
+.recent-posts .recent-posts-cards .card .data span {
+  background-color: #495464;
+  border-radius: 1rem;
+  color: #f4f4f2;
+  font-weight: 700;
+  margin-right: 0.75rem;
+  padding: 0.125rem 0.5rem;
+}
+
+/* ************************************** featured works */
+
+.featured-works {
+  margin: 0 auto;
+  padding: 1.75rem;
+  max-width: 912px;
+}
+
+.featured-works .featured-works-cards {
+  border-top: 1px solid hsl(216, 16%, 42%);
+}
+
+.featured-works .featured-works-cards .card {
+  border-bottom: 1px solid hsl(216, 16%, 42%);
+  color: #f4f4f2;
+  display: flex;
+  padding: 1.25rem;
+  align-items: center;
+}
+
+.featured-works .featured-works-cards .card:hover {
+  background-color: hsl(216, 16%, 38%);
+  color: white;
+}
+
+.featured-works .featured-works-cards .card h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.featured-works .featured-works-cards .card img {
+  width: 33%;
+  margin-right: 1rem;
+}
+
+.featured-works .featured-works-cards .card p {
+  margin-top: 1rem;
+}
+
+.featured-works .featured-works-cards .card .data {
+  color: hsl(216, 16%, 66%);
+}
+
+.featured-works .featured-works-cards .card .data span {
+  background-color: white;
+  border-radius: 1rem;
+  color: #495464;
+  font-weight: 700;
+  margin-right: 0.75rem;
+  padding: 0.125rem 0.5rem;
+}
+
+/* ************************************** footer */
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.5rem;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+#footer .social-links {
+  display: flex;
+  list-style: none;
+  margin-bottom: 1.75rem;
+  font-size: 2rem;
+}
+
+#footer .social-links li a {
+  margin: 0 0.625rem;
+  color: #f4f4f2;
+  bottom: 0;
+  position: relative;
+  transition: 150ms;
+}
+
+#footer .social-links li a:hover {
+  bottom: 3px;
+  color: white;
+}
+
+#footer .social-links li a:active {
+  bottom: 0;
+}
+
+#footer p {
+  font-size: 0.875rem;
+}
+
+/* ************************************** breaking point */
+
+@media (max-width: 768px) {
+
+  /* ************************************** header */
+
+  #header .navbar .nav-list {
+    display: none;
+  }
+
+  #header .navbar .nav-toggle {
+    display: block;
+  }
+  
+  #header .profile {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #header .profile .profile-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  #header .profile .profile-content p {
+    margin-top: 1.75rem;
+    max-width: 80%;
+    align-self: center;
+  }
+  
+  #header .profile .profile-image {
+    width: 100%;
+  }
+
+  #header .profile .profile-image img {
+    max-width: 180px;
+  }
+
+  /* ************************************** recent posts */
+
+  .recent-posts .recent-posts-cards {
+    flex-direction: column;
+  }
+
+  .recent-posts .recent-posts-cards .card {
+    margin-bottom: 1.75rem;
+    margin-right: 0;
+  }
+  
+  .recent-posts .recent-posts-cards .card:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ************************************** featured works */
+
+  .featured-works {
+    padding: 1.75rem 0;
+  }
+
+  .featured-works .section-intro {
+    padding: 0 1.75rem;
+  }
+  
+  .featured-works .featured-works-cards {
+    border-top: 1px solid hsl(216, 16%, 42%);
+  }
+
+  .featured-works .featured-works-cards .card {
+    flex-direction: column;
+    align-items: baseline;
+    padding: 1.75rem;
+  }
+
+  .featured-works .featured-works-cards .card img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+}
